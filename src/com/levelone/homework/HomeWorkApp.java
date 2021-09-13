@@ -13,23 +13,19 @@ public class HomeWorkApp {
 
     }
 
-    public static void printThreeWords() {
+    static void printThreeWords() {
         System.out.println("Orange\nBanana\nApple");
     }
 
-    public static void checkSumSign() {
+    static void checkSumSign() {
         int a = 10;
         int b = -11;
-        int sum = a + b;
 
-        if (sum >= 0) {
-            System.out.println("sum = " + sum + " сумма положительна");
-        } else {
-            System.out.println("sum = " + sum + " сумма отрицательна");
-        }
+        String str = (a + b) >=0 ? "сумма положительна" : "сумма отрицательна";
+        System.out.println(str);
     }
 
-    public static void printColor() {
+    static void printColor() {
         int value = -10;
 
         if (value <= 0) {
@@ -43,14 +39,12 @@ public class HomeWorkApp {
         }
     }
 
-    public static void compareNumbers() {
+    static void compareNumbers() {
         int a = 22;
-        int b = 22;
+        int b = 25;
 
-        if (a >= b) {
-            System.out.println(" a >= b");
-        } else {
-            System.out.println(" a < b");
-        }
+        String str = (a >= b) ? " a >= b" : " a < b";
+        System.out.println(str);
+
     }
 }

@@ -36,11 +36,7 @@ public class HomeWork2 {
         Замечание: ноль считаем положительным числом.
     */
     static void isPositiveOrNegative(int a) {
-        if (a >= 0) {
-            System.out.println("is positive " + a);
-        } else {
-            System.out.println("is negative " + a);
-        }
+        System.out.println( a>= 0 ? "Number is positive" : "Number is negative");
     }
 
     /*
